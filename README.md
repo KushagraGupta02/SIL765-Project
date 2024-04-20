@@ -1,4 +1,40 @@
-# imshrinker
+## SIL765: Networks and System Security 
+### Course Project:  ADAPTIVE SCHEME SELECTION FOR SECURE IMAGE TRANSMISSION IN ENCRYPTION-THEN- COMPRESSION SYSTEMS
+
+
+Kushagra Gupta (2021CS50592) and Parth Patel (2021CS10550)
+
+## Directory structure
+
+        .
+        ├── SPIHT-Compression-Scheme
+        │   ├── src
+        │   │   ├── ..
+        │   │   └── ..
+        │   └── ..
+        ├── parse.py
+        ├── decision_tree_model.pkl
+        ├── roc_curve.png
+        ├── parameters.txt
+        └── data_new.zip
+        
+The SPHIT Image Compression directory contains the source files for SPHIT Image Compression.
+
+The parse.py has the function which trains our decision tree classifier, as well as the SVD Image Compression source.
+
+The decision_tree_model.pkl is the decision tree classifier, and the parameters.txt file contains the trained parameters.
+
+![ROC Curve](./roc_curve.png)
+
+### The ROC Curve of our trained model.
+
+
+-------------------------------------------
+SPHIT Image Compression Implementation
+-------------------------------------------
+
+We acknowledge the ImShrinker developers for their valuable contributions:
+### imshrinker
 ImShrinker - SPIHT algorithm implementation
 
 **Created by René Puchinger in 2008 (revised in 2013).**
